@@ -1,6 +1,6 @@
 from app.runner import run_scrapers
 
-def main(hours: int=24):
+def main(hours: int=20):
     results = run_scrapers(hours=hours)
     
     print(f"\n=== Scraping Results (last {hours} hours) ===")
