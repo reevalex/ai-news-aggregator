@@ -6,7 +6,7 @@ dist/
 wheels/
 *.egg-info
 *.code-workspace
-
+.Rhistory
 # Virtual environments
 .venv
 
